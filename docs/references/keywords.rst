@@ -79,6 +79,8 @@ Keywords
 ``license_file``
     .. warning::
         ``license_file`` is deprecated. Use ``license_files`` instead.
+    
+    .. deprecated:: 56.0.0
 
 ``license_files``
     A list of glob patterns for license related files that should be included.
