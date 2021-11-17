@@ -504,6 +504,8 @@ distutils configuration file the option will be added to (or removed from).
     looking for a generic test entry point independent of test runner are
     encouraged to use `tox <https://tox.readthedocs.io>`_.
 
+.. deprecated:: 41.5.0
+
 When doing test-driven development, or running automated builds that need
 testing before they are deployed for downloading or use, it's often useful
 to be able to run a project's unit tests without actually deploying the project
@@ -549,7 +551,6 @@ available:
     If you did not set a ``test_suite`` in your ``setup()`` call, and do not
     provide a ``--test-suite`` option, an error will occur.
 
-New in 41.5.0: Deprecated the test command.
 
 
 .. _upload:

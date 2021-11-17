@@ -274,7 +274,8 @@ Keywords
     specified test suite, e.g. via ``setup.py test``.  See the section on the
     :ref:`test` command below for more details.
 
-    New in 41.5.0: Deprecated the test command.
+    .. deprecated:: 41.5.0
+       Using ``setup.py test`` is discouraged in favor of `tox <https://tox.readthedocs.io>`_.
 
 ``tests_require``
     If your project's tests need one or more additional packages besides those
@@ -287,7 +288,8 @@ Keywords
     are run, but only downloaded to the project's setup directory if they're
     not already installed locally.
 
-    New in 41.5.0: Deprecated the test command.
+    .. deprecated:: 41.5.0
+       Using ``setup.py test`` is discouraged in favor of `tox <https://tox.readthedocs.io>`_.
 
 .. _test_loader:
 
@@ -312,7 +314,8 @@ Keywords
     as long as you use the ``tests_require`` option to ensure that the package
     containing the loader class is available when the ``test`` command is run.
 
-    New in 41.5.0: Deprecated the test command.
+    .. deprecated:: 41.5.0
+       Using ``setup.py test`` is discouraged in favor of `tox <https://tox.readthedocs.io>`_.
 
 ``eager_resources``
     A list of strings naming resources that should be extracted together, if
